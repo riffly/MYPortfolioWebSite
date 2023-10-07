@@ -1,0 +1,147 @@
+body {
+  overflow-x: hidden;
+  background-color: rgb(27, 27, 27);
+  margin: 0;
+  padding: 0;
+  color: aliceblue;
+}
+
+.landingpage {
+  height: 100vh;
+  width: 100vw;
+}
+.m-con {
+  height: 10rem;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.747);
+}
+
+.profile-picture {
+  height: 10rem;
+  width: 8rem;
+  position: relative;
+  z-index: 3;
+  background-color: rgba(0, 0, 0, 0.528);
+  border-radius: 30%;
+  border: 5px solid rgb(0, 0, 0);
+}
+.profile-picture1 {
+  height: 100%;
+  width: 100%;
+  border-radius: 30%;
+  filter: brightness(1.2);
+  
+}
+
+
+
+.carosal {
+  display: flex;
+  position: absolute;
+  z-index: 2;
+  margin-bottom: 30px;
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  height: 4rem;
+  position: relative;
+  top: -3%;
+  right: 21%;
+}
+
+.projects > h1 {
+  font-family: "Satisfy", cursive;
+
+  text-shadow: 5px 5px 2px rgb(0, 0, 0);
+  white-space: nowrap;
+  margin-top: -8px;
+  font-size: 5rem;
+  font-weight: 1;
+ -webkit-text-stroke: 0.1rem rgb(255, 255, 255);
+  margin-left: -10px;
+  color: rgb(230, 0, 255);
+  background-color: transparent;
+  position: relative;
+  bottom: 2.5rem;
+  left: 25rem;
+  background-color: rgba(143, 143, 143, 0);
+  border-radius: 2;
+  z-index: 3;
+}
+.projects > h2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  white-space: nowrap;
+  margin-top: -8px;
+  font-size: 2rem;
+  position: relative;
+  left: 25rem;
+  bottom: 6.5rem;
+  mix-blend-mode: difference;
+  z-index: 4;
+}
+
+.workExamples {
+  height: auto;
+  flex-wrap: wrap;
+  display: flex;
+
+  padding: 2rem;
+  column-gap: 1rem;
+  row-gap: 2rem;
+}
+.contact {
+  height: 4rem;
+  width: 30rem;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-between;
+  border: 3px solid rgb(255, 0, 242);
+  position: relative;
+  border-radius: 3%;
+  bottom: 8rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  right: 30rem;
+}
+
+.weH {
+  height: 3rem;
+  width: 25rem;
+  position: absolute;
+  left: 45rem;
+  top: 14rem;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.weCon {
+  background-color: rgb(51, 51, 51);
+  color: rgb(255, 255, 255);
+}
+
+
+
+.bottom {
+  border: 3px solid red;
+  height: 7rem;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: auto;
+}
+
+.contact:hover {
+  transform: scale(1.2); /* Scale up the icon on hover */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Add a shadow on hover */
+  z-index: 1; /* Bring the hovered icon to the front */
+}

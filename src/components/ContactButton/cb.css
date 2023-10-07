@@ -1,0 +1,17 @@
+.logo{
+          height: 3rem;
+          width: auto;
+          overflow: hidden;
+          position: relative;
+          top: 1rem;
+          transition: transform 0.4s ease, box-shadow 0.4s ease;
+          background-color: transparent;
+}
+
+.logo:hover {
+          transform: scale(1.5); 
+          transform:translateY(2);
+         
+       
+        }
+

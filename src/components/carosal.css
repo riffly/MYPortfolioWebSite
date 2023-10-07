@@ -1,0 +1,28 @@
+.one{
+          
+          display: flex;
+          padding: 1rem;
+          justify-content: space-around;
+          
+          
+          animation-name: anim;
+          animation-duration: 50s;
+          animation-timing-function: linear;
+          animation-iteration-count: infinite;
+          position: relative;
+width: auto;
+
+
+}
+
+
+
+
+@keyframes anim {
+          0% {
+                    transform: translateX(0%);
+          }
+          100%{
+                    transform: translateX(-100%);
+          }
+}

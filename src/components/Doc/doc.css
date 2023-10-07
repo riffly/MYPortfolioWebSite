@@ -1,0 +1,28 @@
+.icon-container {
+          display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  height: 7rem;
+  position: relative;
+  overflow: auto;
+
+}
+
+.icon {
+  height: 5rem;
+  width: 36rem;
+background-color: transparent;
+ display: flex;
+  justify-content: space-evenly;
+  overflow: hidden;
+  
+ 
+
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+.icon:hover {
+          transform: scale(1.2); /* Scale up the icon on hover */
+          box-shadow: transparent; /* Add a shadow on hover */
+          z-index: 1; /* Bring the hovered icon to the front */
+        }
